@@ -436,6 +436,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/old-circles.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/old-circles.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/old-logo.png" : {
       "ft" : 32768,
       "iS" : 11347,
@@ -524,6 +534,29 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/img\/tss-circles.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/tss-circles.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/tss-logo.jpeg" : {
+      "ft" : 16384,
+      "iS" : 9518,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/tss-logo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/index.php" : {
       "cB" : 0,
@@ -3905,7 +3938,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 652874357.77309203,
-    "displayValue" : "readez-2023",
+    "displayValue" : "tss-2023",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-koamaru",
     "iconImageWasSetByUser" : 0

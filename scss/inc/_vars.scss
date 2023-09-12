@@ -2,17 +2,17 @@
 $primaryFont: 'Objectivity', sans-serif;
 $secondaryFont: 'Objectivity', sans-serif;
 $baseFontSize: 16px;
-$baseFontColor: #364954;
+$baseFontColor: #22282b;
 
 // Colours
-$primary: #67BCE7;
+$primary: #4f8bd3;
 $primaryLight: #F6F2FD;
-$secondary: #67BCE7;
-$tertiary: #55BCB5;
-$quaternary: #CAD507;
+$secondary: #1e73be;
+$tertiary: #efefef;
+$quaternary: #000;
 $lightgrey: #eef0fb;
 $text: $baseFontColor;
-$textLight: #435366;
+$textLight: #343a3d;
 $border: #d6dbe1;
 $white: #fff;
 $borderDark: lighten($text, 35%);

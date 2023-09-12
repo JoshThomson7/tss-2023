@@ -6,20 +6,8 @@
 				<div id="mc_embed_signup" class="footer__signup__form">
 					<h3>Stay up to date</h3>
 
-					<iframe data-w-type="embedded" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://jr29.mjt.lu/wgt/jr29/np7/form?c=c837c14c" width="100%" style="height: 0;"></iframe>
+					<iframe data-w-type="embedded" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://jr29.mjt.lu/wgt/jr29/qz7/form?c=1d875c8c" width="100%" style="height: 0;"></iframe>
 					<script type="text/javascript" src="https://app.mailjet.com/pas-nc-embedded-v1.js"></script>
-
-					<!-- <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-						<div class="form__row">
-							<div class="form__field">
-								<input type="email" value="" placeholder="Email address" name="EMAIL" class="required email" id="mce-EMAIL">
-							</div>
-
-							<div class="form__field submit">
-								<button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">Sign up</button>
-							</div>
-						</div>
-					</form> -->
 
 					<div class="form__row gdpr">
 						<small>We are GDPR compliant and respect your privacy. You can opt-out at any time after signing up.</small>

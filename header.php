@@ -28,7 +28,7 @@
                         <div class="header__main--left">
                             <div class="logo">
                                 <a href="<?php echo esc_url(home_url()); ?>" title="<?php bloginfo('name'); ?>">
-                                    <img src="<?php echo esc_url(get_stylesheet_directory_uri().'/img/logo.png'); ?>" alt="<?php bloginfo('name'); ?>"/>
+                                    <img src="<?php echo esc_url(get_stylesheet_directory_uri().'/img/tss-logo.jpeg'); ?>" alt="<?php bloginfo('name'); ?>"/>
                                 </a>
                             </div>
 
