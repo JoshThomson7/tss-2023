@@ -147,7 +147,7 @@ img {
 
 	&:hover {
 		transition: all 0.3s ease;
-		transform: scale3d(1.02, 1.02, 1.02);
+		transform: scale(1.02);
 	}
 
 	&.small {

@@ -31,6 +31,7 @@ if(!empty($grid_boxes) && is_array($grid_boxes)):
                 $caption = $grid_box['caption'];
                 $button_label = $grid_box['button_label'];
                 $button_url = $grid_box['button_url'];
+                $text_align = $grid_box['text_align'];
 
                 // Defaults
                 $link_open = '';
@@ -62,7 +63,7 @@ if(!empty($grid_boxes) && is_array($grid_boxes)):
                         <figure style="background-image: url(<?php echo $image['url']; ?>)"><?php echo $link_open.$link_close; ?></figure>
                     <?php endif; ?>
 
-                    <div class="grid-box-content<?php echo $overlay_text_align; ?>">
+                    <div class="grid-box-content <?php echo $text_align; ?>">
                         <?php echo $overlay_link_open; ?>
                         <?php echo $link_open; ?>
                             <?php if($top_label): ?><h5><?php echo $top_label; ?></h5><?php endif; ?>
