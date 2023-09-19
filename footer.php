@@ -38,7 +38,7 @@
 					<ul>
 						<li>
 							<i class="fa-light fa-location-dot"></i>
-							Read EZ<br>
+							Thomson Software Solutions<br>
 							131a Dixons Hill Road<br>
 							Herts<br>
 							AL9 7DW
@@ -72,7 +72,7 @@
 		<div class="spotlight-search--content">
 			<a href="#" class="spotlight-close"><i class="fal fa-times"></i></a>
 
-			<h2>Search Read EZ</h2>
+			<h2>Search Thomson Software</h2>
 			<form action="<?php echo esc_url(home_url()); ?>">
 				<input type="text" name="s" placeholder="ie. Overlays" />
 				<button type="submit" class="button primary"><i class="fal fa-search"></i></button>
