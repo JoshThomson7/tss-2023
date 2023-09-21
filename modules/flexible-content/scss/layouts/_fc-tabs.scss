@@ -94,13 +94,19 @@ Tabs
 				padding: var(--fl1-spacing-lg) 0;
 			}
 
+            &--text{
+                width: 100%;
+            }
+
             p {
                 font-size: var(--fl1-font-sm);
                 line-height: 1.9;
                 margin-bottom: var(--fl1-spacing-sm);
                 color: $textLight;
 
-				a{color: $primary;}
+				a{color: $primary;
+                    &.button{color: #fff; display: inline;}
+                }
             }
 
             a.button { 
@@ -121,6 +127,7 @@ Tabs
                 flex-direction: column;
                 top: 0;
                 min-width: 250px;
+                height: 100%;
                 @include breakpoint(brotherbear) {
                     max-width: 100%;
                     // padding-bottom: 50px;

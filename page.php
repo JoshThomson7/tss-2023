@@ -5,6 +5,8 @@
 
 get_header();
 
+AVB::avb_banners();
+
 global $post;
 ?>
 

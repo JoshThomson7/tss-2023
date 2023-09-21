@@ -266,14 +266,17 @@ section.avb {
 		/// No Banner
 		&.avb-empty {
 			.avb-banner {
-				min-height: 260px;
-				padding: 20px 0 60px;
+				min-height: 120px;
+				padding: 10px 0;
+				background: $baseFontColor;
 
 				.avb-banner__caption {
-					padding-bottom: 20px;
+					padding-bottom: 0px;
+
+					h1{padding: 0; color: #fff; font-size: 40px; text-align: center;}
 
 					&-wrap {
-						width: 60%;
+						width: 100%;
 					}
 				}
 			}

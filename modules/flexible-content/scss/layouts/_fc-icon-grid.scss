@@ -78,7 +78,7 @@ Icon Grid
 
             .icon-grid__content {
 
-                h4 { font-size: 21px; color: var(--fl1-text); line-height: 29px; font-weight: 700;}
+                h4 { margin-bottom: 10px; font-size: 21px; color: var(--fl1-text); line-height: 29px; font-weight: 700;}
                 p { font-size: 16px; line-height: 23px; color: var(--fl1-text-light);
                     &:last-of-type { margin-bottom: 0;}
                 }
@@ -90,7 +90,7 @@ Icon Grid
         }
 
         &.center { text-align:center;
-            .icon-grid__icon { margin: 0 auto; justify-content: center;}
+            .icon-grid__icon { margin: 0 auto 20px; justify-content: center;}
         }
         &.left { text-align:left;
             .icon-grid__icon { justify-content: flex-start;}
@@ -98,5 +98,5 @@ Icon Grid
         &.right { text-align:right;
             .icon-grid__icon { justify-content: flex-end; margin-left: auto;}
         }
-    }
+    } 
 }
