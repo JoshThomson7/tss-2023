@@ -76,6 +76,10 @@ if($tabs_content_align) {
                     <?php echo apply_filters('the_content', get_sub_field('tab_content')); ?>
                 </div>
 
+                <?php if(get_sub_field('tab_icon') && get_sub_field('image_duplicate')): ?>
+                        <figure><img src="<?php the_sub_field('tab_icon'); ?>" /></figure>
+                <?php endif; ?>
+
                 <?php if(get_sub_field('tab_button_label') && get_sub_field('tab_button_link')): ?>
                     <a href="<?php the_sub_field('tab_button_link'); ?>" class="button primary icon-right"><span><?php the_sub_field('tab_button_label'); ?></span> <i class="fa fa-chevron-right"></i></a>
                 <?php endif; ?>
