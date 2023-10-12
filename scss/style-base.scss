@@ -55,7 +55,7 @@
 // WOO SINGLE PRODUCT STYLING
 .product-type-simple{
   .price{
-    font-size: 26px; font-weight: 900; font-family: $primaryFont; margin: 30px 0;
+    font-size: 24px; font-weight: 900; font-family: $primaryFont; margin: 30px 0;
   }
 
   form{
@@ -77,6 +77,10 @@
 .product-type-variable, .product-type-simple{
   display: flex;
   @include breakpoint(800px){flex-direction: column;}
+
+  .price{
+    font-size: 24px; font-weight: 900; font-family: $primaryFont; margin: 30px 0;
+  }
 
   .woocommerce-product-gallery{
     width: 40%; padding: 30px 30px 30px 0; cursor: default; pointer-events: none;
@@ -316,6 +320,90 @@
 }
 
 // DOWNLOADS CHECKOUT
+#edd_checkout_cart {
+  text-align: left; width: 100%; border: none; margin: 0 0 21px; table-layout: auto;
+}
+
+#edd_checkout_cart td, #edd_checkout_cart th{
+  border: 1px solid #eee; padding: 0.5em 1.387em;
+}
+
+#edd_checkout_cart td{
+  line-height: 25px; vertical-align: middle; background: #fff;
+}
+
+#edd_checkout_cart td.edd_cart_actions, #edd_checkout_cart td:last-child, #edd_checkout_cart th.edd_cart_actions, #edd_checkout_cart th.edd_cart_total, #edd_checkout_cart th:last-child {
+  text-align: right;
+}
+
+#edd_checkout_cart input.edd-item-quantity {
+  width: 3em;
+  padding: 2px;
+  text-align: right;
+}
+
+#edd_checkout_form_wrap legend {
+  display: block;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 700;
+  width: 100%;
+  margin: 0 0 1rem;
+  padding: 0;
+  color: $primary;
+}
+
+#edd_checkout_form_wrap label {
+  font-weight: 700;
+  display: block;
+  position: relative;
+  line-height: 100%;
+  font-size: 95%;
+  margin: 0 0 5px;
+}
+
+#edd_checkout_form_wrap fieldset {
+  border: 1px solid #eee;
+  padding: 1.387em 0;
+  margin: 0 0 21px;
+}
+
+.StripeElement {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(170, 170, 170);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  padding: 4px 6px!important;
+}
+
+#edd_checkout_form_wrap span.edd-description {
+  color: #666;
+  font-size: 80%;
+  display: block;
+  margin: 0 0 5px;
+}
+
+#edd_checkout_form_wrap #edd-login-account-wrap, #edd_checkout_form_wrap #edd-new-account-wrap, #edd_checkout_form_wrap #edd_final_total_wrap, #edd_checkout_form_wrap #edd_show_discount, #edd_checkout_form_wrap .edd-cart-adjustment {
+  background: #fafafa;
+  color: #666;
+  padding: 0.5em 1.387em;
+}
+
+#edd_secure_site_wrapper {
+  padding: 4px 4px 4px 0;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#edd-purchase-button, .edd-submit, [type=submit].edd-submit{color: white!important;}
+
+#edd_checkout_cart .edd_cart_header_row th{
+  background: #fff; padding: 1.387em;
+}
+
 #edd_checkout_cart td img{
   width: 50px; min-width: 50px;
 }
@@ -323,9 +411,9 @@
 .edd_cart_item_image{padding-right: 15px;}
 
 .edd_cart_item_name{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  // display: flex;
+  // align-items: center;
+  // justify-content: space-between;
 }
 
 .edd_cart_actions{
@@ -345,7 +433,7 @@
     text-align: left;
     padding: 0 10px;
     font-family: "Objectivity",sans-serif;
-    float: left;
+    float: none;
   }
 }
 
@@ -385,6 +473,23 @@
 
 #edd-purchase-button, .edd-submit, [type=submit].edd-submit{
   background: $primary!important; border: none!important; padding: 15px 30px!important; font-size: 18px!important; float: right;
+}
+
+// PURCHASE RECEIPT
+#edd_purchase_receipt{
+  margin-bottom: 30px;
+
+  th, td{text-align: left; padding: 10px;}
+}
+
+#edd_purchase_receipt_products{
+  tr{background: white;
+    th, td{padding: 10px; border: 1px solid #eee;}
+  }
+
+  .edd_purchase_receipt_product_name{color: $primary; font-size: 20px; margin-bottom: 10px;}
+
+  .edd_purchase_receipt_files{padding: 0; margin: 0;}
 }
 
 // TEST CENTRE MAPS

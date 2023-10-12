@@ -74,7 +74,7 @@
 
 			<h2>Search Thomson Software</h2>
 			<form action="<?php echo esc_url(home_url()); ?>">
-				<input type="text" name="s" placeholder="ie. Overlays" />
+				<input type="text" name="s" placeholder="ie. Test Chart" />
 				<button type="submit" class="button primary"><i class="fal fa-search"></i></button>
 			</form>
 		</div>
