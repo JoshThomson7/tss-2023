@@ -139,6 +139,17 @@
                     width: 100%;
                 }
             }
+            &.one__fifth { width: math.percentage(math.div(1,5));
+                @include breakpoint(teenbear){
+                    width: 100%;
+                }
+
+                .padder{margin: 5px;
+                    figure{
+                        height: 140px;
+                    }
+                }
+            }
         }
 
         &.overlay {

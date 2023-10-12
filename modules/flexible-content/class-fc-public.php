@@ -65,7 +65,7 @@ class FC_Public {
         if(get_field('fc_tab_scroller', $post_id)) {
             $type = get_field('fc_menu_type', $post_id);
             if($type === 'fc_sections' && have_rows('fc_content_types', $post_id)) { 
-                include FC_PATH.'layouts/fc-tab-scrollbar.php';
+                include FC_PATH.'layouts/_fc-tabs-scrollbar.php';
             }
 
             if($type === 'child_pages' || $type === 'parent_child_pages') { 

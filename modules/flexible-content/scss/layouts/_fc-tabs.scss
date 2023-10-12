@@ -63,10 +63,11 @@ Tabs
                     border-radius: 8px;
 
                     figure {
-                        margin-right: 8px;
+                        margin-right: 8px; width: 40px;
                         img {
                             mix-blend-mode: multiply;
                             height: 32px;
+                            width: auto;
                         }
                     }
 

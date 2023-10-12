@@ -48,6 +48,11 @@ Accordion
 			padding: 0 var(--fl1-spacing-md) var(--fl1-spacing-md);
 			display: none;
 			@include dontbreak();
+
+			ul, ol { padding: 0 0 0 var(--fl1-spacing-md); margin-bottom: var(--fl1-font-xl);
+
+				li {font-size: var(--fl1-font-sm); color: var(--fl1-text); line-height: 1.7; list-style: disc;}
+			}
 		}
 
 		.accordion__bg {
