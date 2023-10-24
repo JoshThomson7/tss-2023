@@ -1251,6 +1251,22 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/modules\/advanced-testimonials\/functions\/at-functions.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/modules\/advanced-testimonials\/functions\/at-functions.php",
+      "oF" : 0
+    },
+    "\/modules\/advanced-testimonials\/functions\/inc\/at-post-type.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/modules\/advanced-testimonials\/functions\/inc\/at-post-type.php",
+      "oF" : 0
+    },
     "\/modules\/advanced-video-banners\/functions\/class-avb-banner-html-video.php" : {
       "cB" : 0,
       "ft" : 8192,

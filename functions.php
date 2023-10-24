@@ -11,6 +11,7 @@
 require_once 'core/class-fl1.php';
 require_once 'modules/flexible-content/class-fc.php';
 require_once 'modules/advanced-video-banners/functions/class-avb.php';
+include('modules/advanced-testimonials/functions/at-functions.php');
 
 // Modules
 require_once 'modules/fl1-woo/class-fl1-woo.php';
