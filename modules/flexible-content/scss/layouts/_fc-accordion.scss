@@ -26,16 +26,18 @@ Accordion
 		background: #fff;
 		border-radius: var(--fl1-radius-md);
 		position: relative;
-		margin-bottom: var(--fl1-spacing-xs);
+		margin-bottom: 10px;
+		box-shadow: 0 0 4px 1px $lightgrey;
 
 		.toggle {
 			display: flex;
 			justify-content: space-between;
-			padding: var(--fl1-spacing-md);
+			padding: var(--fl1-spacing-sm);
 			font-size: var(--fl1-font-sm);
 			font-weight: 600;
 			color: var(--fl1-text);
 			cursor: pointer;
+			margin: 0;
 
 			span {
 				display: block;
