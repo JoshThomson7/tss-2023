@@ -15,4 +15,3 @@ include('modules/advanced-testimonials/functions/at-functions.php');
 
 // Modules
 require_once 'modules/fl1-woo/class-fl1-woo.php';
-?>
