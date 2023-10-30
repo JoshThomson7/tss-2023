@@ -68,11 +68,15 @@ header.header {
                 display: flex;
                 align-items: center;
 				gap: var(--fl1-spacing-sm);
-                @include breakpoint(500px){display: none;}
 
                 li {
                     display: flex;
                     align-items: center;
+                    @include breakpoint(500px){display: none;}
+
+                    &:first-child{
+                        @include breakpoint(500px){display: block;}
+                    }
 
                     a { 
                         display: flex;
