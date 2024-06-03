@@ -48,7 +48,7 @@
 				</article>
 
 				<article class="footer__details">
-					<img src="<?php echo esc_url(get_stylesheet_directory_uri().'/img/ISO-Inverted.png'); ?>" alt="<?php bloginfo('name'); ?>"/>
+					<img src="<?php echo esc_url(get_stylesheet_directory_uri().'/img/ISO-Inverted.jpg'); ?>" alt="<?php bloginfo('name'); ?>"/>
 				</article>
 			</div>
 		</div>

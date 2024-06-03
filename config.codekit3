@@ -7,7 +7,7 @@
       "uuidString" : "E3A06CD2-C4DD-478B-B0DB-996D30A81E10"
     }
   ],
-  "creatorBuild" : "34518",
+  "creatorBuild" : "34576",
   "files" : {
     "\/404.php" : {
       "cB" : 0,
@@ -377,6 +377,19 @@
       "oAP" : "\/header.php",
       "oF" : 0
     },
+    "\/img\/_ISO-Inverted.png" : {
+      "ft" : 32768,
+      "iS" : 28853,
+      "oA" : 0,
+      "oAP" : "\/img\/_ISO-Inverted.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/ajax-loader.gif" : {
       "ft" : 4194304,
       "iS" : 1737,
@@ -410,15 +423,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/img\/ISO-Inverted.png" : {
-      "ft" : 32768,
-      "iS" : 28853,
+    "\/img\/ISO-Inverted.jpg" : {
+      "ft" : 16384,
+      "iS" : 873132,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/img\/ISO-Inverted.png",
+      "oAP" : "\/img\/ISO-Inverted.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -432,6 +445,32 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/NQA ISO 13485 Logo - UKAS.jpg" : {
+      "ft" : 16384,
+      "iS" : 888062,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/NQA ISO 13485 Logo - UKAS.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/NQA_ISO13485_CMYK_UKAS.jpg" : {
+      "ft" : 16384,
+      "iS" : 888062,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/NQA_ISO13485_CMYK_UKAS.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3443,6 +3482,14 @@
       "oAP" : "\/page.php",
       "oF" : 0
     },
+    "\/password-protect.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/password-protect.php",
+      "oF" : 0
+    },
     "\/screenshot.png" : {
       "ft" : 32768,
       "iS" : 193191,
@@ -3892,14 +3939,6 @@
       "oAP" : "\/style-min.css",
       "oF" : 0,
       "pg" : 0
-    },
-    "\/untitled file" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/untitled file",
-      "oF" : 0
     },
     "\/woocommerce.php" : {
       "cB" : 0,
@@ -4791,9 +4830,6 @@
       "no-new-native-nonconstructor" : {
         "active" : 0
       },
-      "no-new-object" : {
-        "active" : 0
-      },
       "no-new-symbol" : {
         "active" : 1
       },
@@ -4805,6 +4841,9 @@
       },
       "no-obj-calls" : {
         "active" : 1
+      },
+      "no-object-constructor" : {
+        "active" : 0
       },
       "no-octal" : {
         "active" : 1
