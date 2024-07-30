@@ -31,10 +31,10 @@ header.header {
     .header__main {
         position: relative;
 		z-index: 1;
-        padding: 16px 0 40px;
+        padding: 15px 0 15px;
 
         @include breakpoint(brotherbear) {
-            padding: 5px 0;
+            padding: 10px 0;
         }
 
         .max__width {

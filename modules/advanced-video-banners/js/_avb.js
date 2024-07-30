@@ -41,7 +41,7 @@
 
             //start the slider
             slideWrapper.slick({
-                autoplay: true,
+                autoplay: false,
                 autoplaySpeed: 5000,
                 slidesToShow: 1,
                 slidesToScroll: 1,
