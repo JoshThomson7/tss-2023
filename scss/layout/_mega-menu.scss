@@ -13,6 +13,17 @@ nav.mega-menu {
         li {
             list-style: none;
             position: relative;
+
+            &.has-columns{
+                ul{
+                    li{
+                        &:last-child{
+                            a{color: var(--fl1-text)!important;}
+                        }
+                    }
+                }
+            }
+
             a {
                 font-size: var(--fl1-base-font-size);
                 color: var(--fl1-text);

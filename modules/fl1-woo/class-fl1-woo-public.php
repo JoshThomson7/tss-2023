@@ -2,7 +2,7 @@
 /**
  * TLC Public
  *
- * Class in charge of TLC Public facing side
+ * Class in charge of TSS Public facing side
  */
 
  // Exit if accessed directly`

@@ -52,6 +52,12 @@
   padding: 20px 10px; background: $primary; color: white!important; border-radius: 16px
 }
 
+.home{
+  .avb{
+    display: none;
+  }
+}
+
 // WOO SINGLE PRODUCT STYLING
 .product-type-simple{
   .price{
